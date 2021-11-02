@@ -1,0 +1,414 @@
+@media all and (max-width: 1995px) {
+  #contactMainHolder {
+    margin-bottom: 200px !important;
+  }
+}
+
+@media all and (max-width: 991px) {
+  #contactTopHolder
+    .contact-top-box
+    .contact-top-row
+    .contact-top-side
+    .contact-top-side-cnt
+    h2 {
+    font-size: 45px;
+  }
+  #contactMainHolder {
+    margin-bottom: 0px !important;
+  }
+  #contactMainHolder .contact-main-box .contact-main-row .contact-main-side {
+    max-width: 100%;
+    width: 100%;
+    height: 600px;
+  }
+  #contactMainHolder
+    .contact-main-box
+    .contact-main-row
+    .contact-main-side
+    .contact-main-side-cnt {
+    max-width: 80%;
+    width: 100%;
+  }
+  #contactMainHolder
+    .contact-main-box
+    .contact-main-row
+    .contact-main-side
+    .contact-main-side-cnt
+    #contactOtherSideCnt {
+    width: 100%;
+    position: relative;
+    top: 50px;
+  }
+  #contactMainHolder
+    .contact-main-box
+    .contact-main-row
+    .contact-main-side
+    .contact-main-side-cnt
+    #contactOtherSideCnt
+    .contact-other-side-set:last-child
+    .contact-other-side-group {
+    height: 100%;
+  }
+  #contactMainHolder
+    .contact-main-box
+    .contact-main-row
+    .contact-main-side
+    .contact-main-side-cnt
+    #contactOtherSideCnt
+    .contact-other-side-set:last-child
+    .contact-other-side-group
+    .contact-other-side-group-inner {
+    display: flex;
+  }
+}
+
+@media (min-width: 992px) {
+}
+
+@media all and (max-width: 768px) {
+  #contactTopHolder .contact-top-box,
+  #contactTopHolder .contact-top-box .contact-top-row .contact-top-side {
+    height: 600px;
+  }
+  #contactTopHolder
+    .contact-top-box
+    .contact-top-row
+    .contact-top-side
+    .contact-top-side-cnt {
+    padding-top: 40px !important;
+  }
+  #contactTopHolder
+    .contact-top-box
+    .contact-top-row
+    .contact-top-side
+    .contact-top-side-cnt
+    h2 {
+    font-size: 30px;
+    max-width: 70%;
+    text-align: center;
+    margin: auto !important;
+  }
+  #contactTopHolder
+    .contact-top-box
+    .contact-top-row
+    .contact-top-side
+    .contact-top-side-cnt
+    p {
+    font-size: 14px;
+    max-width: 280px;
+  }
+  #contactTopHolder
+    .contact-top-box
+    .contact-top-row
+    .contact-top-side
+    .contact-top-side-cnt
+    a {
+    padding: 10px !important;
+    font-size: 15px !important;
+  }
+  #contactMainHolder {
+    margin-top: 70px !important;
+    margin-bottom: 180px !important;
+  }
+  #contactMainHolder
+    .contact-main-box
+    .contact-main-row
+    .contact-main-side
+    .contact-main-side-cnt
+    #contactFormSideCnt
+    .contact-form-side-top {
+    text-align: center;
+  }
+  #contactMainHolder .contact-main-box .contact-main-row .contact-main-side {
+    height: 100%;
+  }
+  #contactMainHolder
+    .contact-main-box
+    .contact-main-row
+    .contact-main-side:last-child {
+    margin-top: 40px !important;
+  }
+  #contactMainHolder
+    .contact-main-box
+    .contact-main-row
+    .contact-main-side
+    .contact-main-side-cnt
+    #contactFormSideCnt
+    .contact-form-side-top
+    h2 {
+    font-size: 30px;
+    max-width: 80%;
+    margin: auto !important;
+  }
+  #contactMainHolder
+    .contact-main-box
+    .contact-main-row
+    .contact-main-side
+    .contact-main-side-cnt
+    #contactFormSideCnt
+    .contact-form-side-top
+    p {
+    font-size: 13.5px;
+    max-width: 450px;
+  }
+  #contactMainHolder
+    .contact-main-box
+    .contact-main-row
+    .contact-main-side
+    .contact-main-side-cnt
+    #contactFormSideCnt
+    form {
+    padding: 0 !important;
+    border: none;
+    height: 100%;
+  }
+  #contactMainHolder
+    .contact-main-box
+    .contact-main-row
+    .contact-main-side
+    .contact-main-side-cnt
+    #contactFormSideCnt
+    form
+    .contact-form-set {
+    display: block;
+    height: 100%;
+  }
+  #contactMainHolder
+    .contact-main-box
+    .contact-main-row
+    .contact-main-side
+    .contact-main-side-cnt
+    #contactFormSideCnt
+    form
+    .contact-form-set
+    .contact-form-group {
+    margin-bottom: 10px !important;
+    width: 100%;
+    border: none;
+  }
+  #contactMainHolder
+    .contact-main-box
+    .contact-main-row
+    .contact-main-side
+    .contact-main-side-cnt
+    #contactFormSideCnt
+    form
+    .cf-bottom-set {
+    display: block;
+    max-width: 100%;
+  }
+  #contactMainHolder
+    .contact-main-box
+    .contact-main-row
+    .contact-main-side
+    .contact-main-side-cnt
+    #contactFormSideCnt
+    form
+    .contact-form-set
+    .contact-form-group
+    input {
+    max-width: 100%;
+    font-size: 14px;
+  }
+  #contactMainHolder
+    .contact-main-box
+    .contact-main-row
+    .contact-main-side
+    .contact-main-side-cnt
+    #contactFormSideCnt
+    form
+    .cf-bottom-set
+    .contact-form-group:first-child {
+    width: 100%;
+  }
+  #contactMainHolder
+    .contact-main-box
+    .contact-main-row
+    .contact-main-side
+    .contact-main-side-cnt
+    #contactFormSideCnt
+    form
+    .cf-bottom-set
+    .contact-form-group:last-child {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 40px !important;
+  }
+  #contactMainHolder
+    .contact-main-box
+    .contact-main-row
+    .contact-main-side
+    .contact-main-side-cnt
+    #contactFormSideCnt
+    form
+    .cf-bottom-set
+    .cf-btns
+    button {
+    width: 90px;
+    font-size: 17px;
+  }
+  #contactMainHolder
+    .contact-main-box
+    .contact-main-row
+    .contact-main-side
+    .contact-main-side-cnt
+    #contactFormSideCnt
+    form
+    .cf-bottom-set
+    .contact-form-group:last-child
+    button:last-child {
+    margin-left: 15px !important;
+  }
+  #contactMainHolder
+    .contact-main-box
+    .contact-main-row
+    .contact-main-side
+    .contact-main-side-cnt
+    #contactOtherSideCnt {
+    width: 100%;
+    position: relative;
+    top: 70px;
+  }
+  #contactMainHolder
+    .contact-main-box
+    .contact-main-row
+    .contact-main-side
+    .contact-main-side-cnt
+    #contactOtherSideCnt
+    .contact-other-side-set
+    .contact-other-side-group
+    a {
+    font-size: 15px !important;
+  }
+}
+
+/*! Pixel 2 XL */
+@media only screen and (min-device-width: 411px) and (max-device-width: 823px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  #contactTopHolder .contact-top-box,
+  #contactTopHolder .contact-top-box .contact-top-row .contact-top-side {
+    height: 380px;
+  }
+  #contactTopHolder
+    .contact-top-box
+    .contact-top-row
+    .contact-top-side
+    .contact-top-side-cnt {
+    padding-top: 27px !important;
+  }
+  #contactTopHolder
+    .contact-top-box
+    .contact-top-row
+    .contact-top-side
+    .contact-top-side-cnt
+    h2 {
+    max-width: 100%;
+  }
+  #contactTopHolder
+    .contact-top-box
+    .contact-top-row
+    .contact-top-side
+    .contact-top-side-cnt
+    p {
+    padding-top: 10px !important;
+    padding-bottom: 30px !important;
+    max-width: 380px !important;
+  }
+}
+
+/*! Ipad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  #contactTopHolder .contact-top-box,
+  #contactTopHolder .contact-top-box .contact-top-row .contact-top-side {
+    height: 420px;
+  }
+  #contactTopHolder
+    .contact-top-box
+    .contact-top-row
+    .contact-top-side
+    .contact-top-side-cnt {
+    padding-top: 70px !important;
+  }
+  #contactTopHolder
+    .contact-top-box
+    .contact-top-row
+    .contact-top-side
+    .contact-top-side-cnt
+    h2 {
+    max-width: 100%;
+    font-size: 35px;
+  }
+  #contactTopHolder
+    .contact-top-box
+    .contact-top-row
+    .contact-top-side
+    .contact-top-side-cnt
+    p {
+    padding-top: 10px !important;
+    padding-bottom: 30px !important;
+    max-width: 380px !important;
+    font-size: 14px;
+  }
+  #contactTopHolder
+    .contact-top-box
+    .contact-top-row
+    .contact-top-side
+    .contact-top-side-cnt
+    a {
+    padding: 10px !important;
+    font-size: 15px;
+  }
+}
+
+/*! iPad Pro */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  #contactTopHolder .contact-top-box,
+  #contactTopHolder .contact-top-box .contact-top-row .contact-top-side {
+    height: 520px;
+  }
+  #contactTopHolder
+    .contact-top-box
+    .contact-top-row
+    .contact-top-side
+    .contact-top-side-cnt {
+    padding-top: 50px !important;
+  }
+  #contactTopHolder
+    .contact-top-box
+    .contact-top-row
+    .contact-top-side
+    .contact-top-side-cnt
+    h2 {
+    font-size: 55px !important;
+  }
+  #contactTopHolder
+    .contact-top-box
+    .contact-top-row
+    .contact-top-side
+    .contact-top-side-cnt
+    p {
+    padding-top: 10px !important;
+    padding-bottom: 30px !important;
+    max-width: 480px !important;
+    font-size: 18px;
+  }
+  #contactTopHolder
+    .contact-top-box
+    .contact-top-row
+    .contact-top-side
+    .contact-top-side-cnt
+    a {
+    padding: 10px !important;
+    font-size: 19px;
+  }
+}
+
+/*! Laptops */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+}

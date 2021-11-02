@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap");
+#sCDarken {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #440b0bd8;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  z-index: 900;
+}
+
+#sCMain {
+  position: fixed;
+  font-family: "Poppins";
+  right: 0;
+  top: 0;
+  width: 0;
+  overflow: hidden;
+  overflow-y: auto;
+  white-space: nowrap;
+  height: 100%;
+  max-width: 1000px;
+  background: white;
+  z-index: 900;
+}
+
+#sCMain #sCCnt {
+  display: -ms-grid;
+  display: grid;
+  padding: 20px !important;
+}
+
+#sCMain #sCCnt .cart-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#sCMain #sCCnt .cart-top button {
+  background: #440b0bd8;
+  color: white !important;
+  padding: 10px !important;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 160px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-weight: 700;
+}
+
+#sCMain #sCCnt .cart-body {
+  max-width: 85%;
+  width: 100%;
+  margin: auto !important;
+  padding-top: 80px !important;
+}
+
+#sCMain #sCCnt .cart-body h1 {
+  font-weight: 700;
+  opacity: 0.9;
+  font-size: clamp(2rem, 3vw, 3rem);
+}
+
+#sCMain #sCCnt .cart-body #cartItemsHolder {
+  margin-top: 60px !important;
+}
+
+#sCMain #sCCnt .cart-body #cartItemsHolder .cart-item {
+  padding: 30px !important;
+  -webkit-box-shadow: 0 5px 4px rgba(219, 219, 219, 0.664);
+          box-shadow: 0 5px 4px rgba(219, 219, 219, 0.664);
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#sCMain #sCCnt .cart-body #cartItemsHolder .cart-item .cart-item-img {
+  width: 200px !important;
+  height: 190px !important;
+  display: block !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#sCMain #sCCnt .cart-body #cartItemsHolder .cart-item h4 {
+  font-family: "Poppins";
+  font-weight: 700;
+  text-align: left;
+  display: block;
+}
+
+#sCMain #sCCnt .cart-body #cartItemsHolder .cart-item button {
+  font-family: "Poppins";
+  font-weight: 700;
+  background-color: #af2525;
+  color: white;
+  width: 40px;
+  height: 40px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  font-size: 24px;
+  border-radius: 50%;
+}
+
+#pageEntryHolder {
+  position: relative;
+}
+
+#pageEntryHolder #pageEntryDarken {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.911);
+  z-index: 1000;
+}
+
+#pageEntryHolder #pageEntryCnt {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  z-index: 1000;
+  text-align: center;
+  overflow-y: auto;
+}
+
+#pageEntryHolder #pageEntryCnt .page-entry-cnt-inner {
+  display: block;
+  background: white;
+  width: 100%;
+  max-width: 800px;
+}
+
+#pageEntryHolder #pageEntryCnt .page-entry-cnt-inner .page-entry-bg {
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #af2525;
+}
+
+#pageEntryHolder #pageEntryCnt .page-entry-cnt-inner .page-entry-text {
+  padding: 30px !important;
+  font-family: "Poppins";
+  height: 300px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+#pageEntryHolder #pageEntryCnt .page-entry-cnt-inner .page-entry-text .page-entry-text-inner {
+  display: block;
+}
+
+#pageEntryHolder #pageEntryCnt .page-entry-cnt-inner .page-entry-text .page-entry-text-inner h2 {
+  font-size: 35px;
+  font-weight: 700;
+  color: #af2525;
+}
+
+#pageEntryHolder #pageEntryCnt .page-entry-cnt-inner .page-entry-text .page-entry-text-inner p {
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+#pageEntryHolder #pageEntryCnt .page-entry-cnt-inner .page-entry-text .page-entry-text-inner div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto !important;
+  max-width: 380px;
+}
+
+#pageEntryHolder #pageEntryCnt .page-entry-cnt-inner .page-entry-text .page-entry-text-inner div .page-entry-btn {
+  border: 2px solid #af2525 !important;
+  padding: 8px !important;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 17px;
+  color: #af2525;
+  background: transparent;
+}
+
+#pageEntryHolder #pageEntryCnt .page-entry-cnt-inner .page-entry-text .page-entry-text-inner div .page-entry-btn:hover {
+  background: #af2525 !important;
+  color: white;
+}
+/*# sourceMappingURL=js-styles-dir.css.map */

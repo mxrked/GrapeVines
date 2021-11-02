@@ -1,0 +1,156 @@
+@media all and (max-width: 1995px) {
+}
+
+@media all and (max-width: 991px) {
+  #navSetUpHolder .nav-setup-box {
+    max-width: 85%;
+  }
+  #navSetUpHolder .nav-setup-box .nav-setup-row #mNavLinksSide {
+    display: flex;
+  }
+  #navSetUpHolder .nav-setup-box .nav-setup-row #dNavLinksSide {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  #navSetUpHolder .nav-setup-box .nav-setup-row #mNavLinksSide {
+    display: none !important;
+  }
+  #navSetUpHolder .nav-setup-box .nav-setup-row #dNavLinksSide {
+    display: flex !important;
+  }
+  #navLinksDarken {
+    display: none !important;
+  }
+  #navLinks {
+    display: none !important;
+  }
+}
+
+@media all and (max-width: 768px) {
+  #navSetUpHolder
+    .nav-setup-box
+    .nav-setup-row
+    .nav-setup-side
+    .nav-setup-side-cnt
+    #navLogo
+    img {
+    max-width: 120px;
+    left: -10px;
+    top: -30px;
+  }
+  #navSetUpHolder
+    .nav-setup-box
+    .nav-setup-row
+    .nav-setup-side
+    .nav-setup-side-cnt
+    #navLogo
+    h1 {
+    font-size: 21px !important;
+  }
+  #navSetUpHolder
+    .nav-setup-box
+    .nav-setup-row
+    #mNavLinksSide
+    .nav-setup-side-cnt
+    button {
+    margin-right: 15px !important;
+  }
+  .m-nav-setup-side {
+    width: 100%;
+    max-width: 50% !important;
+  }
+  #navSetUpHolder .nav-setup-box .nav-setup-row .nav-setup-side {
+    height: 80px;
+  }
+}
+
+/*! Pixel 2 XL */
+@media only screen and (min-device-width: 411px) and (max-device-width: 823px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+}
+
+/*! Ipad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  #navSetUpHolder .nav-setup-box {
+    max-width: 85%;
+  }
+  #navSetUpHolder .nav-setup-box .nav-setup-row #mNavLinksSide {
+    display: flex;
+  }
+  #navSetUpHolder .nav-setup-box .nav-setup-row #dNavLinksSide {
+    display: none;
+  }
+  .m-nav-setup-side {
+    width: 100%;
+    max-width: 50% !important;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  #navSetUpHolder .nav-setup-box {
+    max-width: 85%;
+  }
+  #navSetUpHolder .nav-setup-box .nav-setup-row #mNavLinksSide {
+    display: flex;
+  }
+  #navSetUpHolder .nav-setup-box .nav-setup-row #dNavLinksSide {
+    display: none;
+  }
+  .m-nav-setup-side {
+    width: 100% !important;
+    max-width: 50% !important;
+  }
+}
+
+/*! iPad Pro */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  #navSetUpHolder .nav-setup-box {
+    max-width: 85%;
+  }
+  #navSetUpHolder .nav-setup-box .nav-setup-row #mNavLinksSide {
+    display: flex !important;
+  }
+  #navSetUpHolder .nav-setup-box .nav-setup-row #dNavLinksSide {
+    display: none !important;
+  }
+  .m-nav-setup-side {
+    width: 100% !important;
+    max-width: 50% !important;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  #navSetUpHolder .nav-setup-box .nav-setup-row #mNavLinksSide {
+    display: flex !important;
+  }
+  #navSetUpHolder .nav-setup-box .nav-setup-row #dNavLinksSide {
+    display: none !important;
+  }
+  #navSetUpHolder .nav-setup-box {
+    max-width: 85%;
+  }
+  #navSetUpHolder .nav-setup-box .nav-setup-row #mNavLinksSide {
+    display: flex;
+  }
+  #navSetUpHolder .nav-setup-box .nav-setup-row #dNavLinksSide {
+    display: none;
+  }
+  .m-nav-setup-side {
+    width: 100% !important;
+    max-width: 50% !important;
+  }
+  #navLinksDarken {
+    display: block !important;
+  }
+  #navLinks {
+    display: grid !important;
+  }
+}
+
+/*! Laptops */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  #navSetUpHolder .nav-setup-box {
+    max-width: 80%;
+  }
+}

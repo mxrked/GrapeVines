@@ -1,0 +1,429 @@
+@media all and (max-width: 1995px) {
+  #teamMateOneHolder {
+    margin-top: 100px !important;
+  }
+  #teamMateTwoHolder {
+    margin-top: 100px !important;
+    margin-bottom: 0px !important;
+  }
+  #teamMateThreeHolder {
+    margin-top: 100px !important;
+    margin-bottom: 40px !important;
+  }
+  .team-mate-holder .team-mate-box {
+    max-width: 90%;
+  }
+  .team-mate-holder
+    .team-mate-box
+    .team-mate-row
+    .team-mate-side
+    .team-mate-side-bgs-holder
+    .team-mate-side-colored-bg {
+    display: none;
+  }
+  .team-mate-holder
+    .team-mate-box
+    .team-mate-row
+    .team-mate-side
+    .team-mate-side-cnt,
+  .team-mate-holder
+    .team-mate-box
+    .team-mate-row
+    .team-mate-side
+    .team-mate-side-cnt:first-child {
+    margin: auto !important;
+  }
+  #teamMateTwoHolder .team-mate-side-cnt {
+    margin: auto !important;
+  }
+  .team-mate-holder
+    .team-mate-box
+    .team-mate-row
+    .team-mate-side
+    .team-mate-side-cnt
+    p {
+    max-width: 95%;
+  }
+}
+
+@media all and (max-width: 991px) {
+  #teamTopHolder .team-top-box .team-top-row .team-top-side {
+    height: 680px;
+  }
+  #teamTopHolder
+    .team-top-box
+    .team-top-row
+    .team-top-side
+    .team-top-side-cnt
+    h2 {
+    font-size: 45px;
+  }
+  #teamTopHolder
+    .team-top-box
+    .team-top-row
+    .team-top-side
+    .team-top-side-cnt
+    p {
+    font-size: 17px;
+    max-width: 450px;
+  }
+  .team-mate-holder
+    .team-mate-box
+    .team-mate-row
+    .team-mate-side
+    .team-mate-side-cnt
+    h4 {
+    font-size: 16px !important;
+  }
+  .team-mate-holder
+    .team-mate-box
+    .team-mate-row
+    .team-mate-side
+    .team-mate-side-cnt
+    h2 {
+    font-size: 36px;
+  }
+  .team-mate-holder .team-mate-box,
+  .team-mate-holder
+    .team-mate-box
+    .team-mate-row
+    .team-mate-side
+    .team-mate-side-cnt
+    p {
+    max-width: 100% !important;
+  }
+  .team-mate-holder
+    .team-mate-box
+    .team-mate-row
+    .team-mate-side
+    .team-mate-side-cnt
+    p {
+    max-width: 80%;
+    margin: auto !important;
+  }
+}
+
+@media (min-width: 992px) {
+}
+
+@media all and (max-width: 768px) {
+  #teamTopHolder .team-top-box .team-top-row .team-top-side {
+    height: 610px;
+  }
+  #teamTopHolder .team-top-box .team-top-row .team-top-side .team-top-side-cnt {
+    padding-top: 40px !important;
+  }
+  #teamTopHolder
+    .team-top-box
+    .team-top-row
+    .team-top-side
+    .team-top-side-cnt
+    h2 {
+    font-size: 30px;
+  }
+  #teamTopHolder
+    .team-top-box
+    .team-top-row
+    .team-top-side
+    .team-top-side-cnt
+    p {
+    font-size: 14px;
+    max-width: 280px;
+  }
+  #teamTopHolder
+    .team-top-box
+    .team-top-row
+    .team-top-side
+    .team-top-side-cnt
+    a {
+    padding: 10px !important;
+    font-size: 15px;
+  }
+  #teamMateOneHolder {
+    margin-top: 30px !important;
+    text-align: center;
+  }
+  #teamMateTwoHolder {
+    margin-top: 50px !important;
+    margin-bottom: 20px !important;
+    text-align: center;
+  }
+  #teamMateThreeHolder {
+    margin-top: 55px !important;
+    margin-bottom: 70px !important;
+    text-align: center;
+  }
+  #teamMateTwoHolder .team-mate-side-cnt {
+    margin: auto !important;
+  }
+  .team-mate-holder
+    .team-mate-box
+    .team-mate-row
+    .team-mate-side
+    .team-mate-side-cnt {
+    max-width: 100% !important;
+  }
+  .team-mate-holder
+    .team-mate-box
+    .team-mate-row
+    .team-mate-side
+    .team-mate-side-bgs-holder
+    .team-mate-side-bg {
+    height: 320px;
+  }
+  .team-mate-holder .team-mate-box .team-mate-row .team-mate-side {
+    height: 370px;
+  }
+  .team-mate-holder
+    .team-mate-box
+    .team-mate-row
+    .team-mate-side
+    .team-mate-side-cnt
+    h4 {
+    font-size: 14px;
+  }
+  .team-mate-holder
+    .team-mate-box
+    .team-mate-row
+    .team-mate-side
+    .team-mate-side-cnt
+    h2 {
+    font-size: 34px;
+  }
+  .team-mate-holder
+    .team-mate-box
+    .team-mate-row
+    .team-mate-side
+    .team-mate-side-cnt
+    p {
+    max-width: 85% !important;
+    font-size: 13.5px;
+  }
+}
+
+/*! Pixel 2 XL */
+@media only screen and (min-device-width: 411px) and (max-device-width: 823px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  #teamTopHolder .team-top-box .team-top-row .team-top-side {
+    height: 420px;
+  }
+  #teamTopHolder .team-top-box .team-top-row .team-top-side .team-top-side-cnt {
+    padding-top: 30px !important;
+  }
+  #teamTopHolder
+    .team-top-box
+    .team-top-row
+    .team-top-side
+    .team-top-side-cnt
+    h2 {
+    font-size: 35px;
+  }
+  #teamTopHolder
+    .team-top-box
+    .team-top-row
+    .team-top-side
+    .team-top-side-cnt
+    p {
+    font-size: 14px !important;
+    max-width: 380px;
+    padding-top: 20px !important;
+    padding-bottom: 30px !important;
+  }
+  #teamTopHolder
+    .team-top-box
+    .team-top-row
+    .team-top-side
+    .team-top-side-cnt
+    a {
+    padding: 10px !important;
+    font-size: 15px;
+  }
+  #teamMateTwoHolder {
+    margin-top: 85px !important;
+  }
+  .team-mate-holder .team-mate-box {
+    max-width: 83%;
+  }
+  .team-mate-holder .team-mate-box .team-mate-row .team-mate-side:first-child {
+    max-width: 70%;
+  }
+  .team-mate-holder .team-mate-box .team-mate-row .team-mate-side:last-child {
+    max-width: 30% !important;
+  }
+  .team-mate-holder
+    .team-mate-box
+    .team-mate-row
+    .team-mate-side
+    .team-mate-side-cnt {
+    max-width: 90%;
+  }
+  .team-mate-holder
+    .team-mate-box
+    .team-mate-row
+    .team-mate-side
+    .team-mate-side-cnt
+    p {
+    max-width: 100%;
+    font-size: 13.5px;
+  }
+}
+
+/*! Ipad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  #teamTopHolder .team-top-box .team-top-row .team-top-side {
+    height: 420px;
+  }
+  #teamTopHolder .team-top-box .team-top-row .team-top-side .team-top-side-cnt {
+    padding-top: 50px !important;
+  }
+  #teamTopHolder
+    .team-top-box
+    .team-top-row
+    .team-top-side
+    .team-top-side-cnt
+    h2 {
+    font-size: 35px;
+  }
+  #teamTopHolder
+    .team-top-box
+    .team-top-row
+    .team-top-side
+    .team-top-side-cnt
+    p {
+    padding-top: 10px !important;
+    padding-bottom: 30px !important;
+    max-width: 380px !important;
+    font-size: 14px;
+  }
+  #teamTopHolder
+    .team-top-box
+    .team-top-row
+    .team-top-side
+    .team-top-side-cnt
+    a {
+    padding: 10px !important;
+    font-size: 15px;
+  }
+  .team-mate-holder .team-mate-box .team-mate-row .team-mate-side {
+    max-width: 50%;
+    width: 100%;
+    height: 500px;
+  }
+  .team-mate-holder
+    .team-mate-box
+    .team-mate-row
+    .team-mate-side
+    .team-mate-side-bgs-holder
+    .team-mate-side-bg {
+    height: 400px;
+  }
+  #teamMateOneHolder {
+    margin-top: 40px !important;
+  }
+  #teamMateTwoHolder {
+    margin-top: 10px !important;
+    margin-bottom: 0px !important;
+  }
+  #teamMateThreeHolder {
+    margin-top: 10px !important;
+    margin-bottom: 0px !important;
+  }
+}
+
+/*! iPad Pro */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  #teamMateTwoHolder {
+    margin-bottom: 20px !important;
+  }
+  #teamMateThreeHolder {
+    margin-top: 80px !important;
+    margin-bottom: 40px !important;
+  }
+  .team-mate-holder
+    .team-mate-box
+    .team-mate-row
+    .team-mate-side
+    .team-mate-side-cnt
+    p {
+    max-width: 95%;
+  }
+  #teamMateBGOne {
+    right: -50px;
+  }
+  #teamMateBGTwo {
+    left: -50px;
+  }
+  #teamMateBGThree {
+    right: -50px;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  #teamTopHolder .team-top-box .team-top-row .team-top-side {
+    height: 520px;
+  }
+  #teamTopHolder .team-top-box .team-top-row .team-top-side .team-top-side-cnt {
+    padding-top: 50px !important;
+  }
+  #teamTopHolder
+    .team-top-box
+    .team-top-row
+    .team-top-side
+    .team-top-side-cnt
+    h2 {
+    font-size: 55px;
+  }
+  #teamTopHolder
+    .team-top-box
+    .team-top-row
+    .team-top-side
+    .team-top-side-cnt
+    p {
+    padding-top: 10px !important;
+    padding-bottom: 30px !important;
+    max-width: 480px !important;
+    font-size: 18px;
+  }
+  #teamTopHolder
+    .team-top-box
+    .team-top-row
+    .team-top-side
+    .team-top-side-cnt
+    a {
+    padding: 10px !important;
+    font-size: 19px;
+  }
+  #teamMateTwoHolder {
+    margin-bottom: 30px !important;
+  }
+  #teamMateThreeHolder {
+    margin-bottom: 40px !important;
+  }
+  .team-mate-holder .team-mate-box .team-mate-row .team-mate-side {
+    max-width: 50%;
+    width: 100%;
+  }
+  #teamMateBGOne {
+    right: -50px;
+  }
+  #teamMateBGTwo {
+    left: -50px;
+  }
+  #teamMateBGThree {
+    right: -50px;
+  }
+  .team-mate-holder
+    .team-mate-box
+    .team-mate-row
+    .team-mate-side
+    .team-mate-side-cnt
+    p {
+    max-width: 95%;
+  }
+}
+
+/*! Laptops */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+}

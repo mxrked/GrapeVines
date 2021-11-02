@@ -1,0 +1,1505 @@
+@import "../abstracts/abstracts-dir.scss";
+@import "../base/base-dir.scss";
+@import "../interact/interact-dir.scss";
+@import "../js-styles/js-styles-dir.scss";
+
+// #root {
+//   height: 200vh;
+// }
+
+#falseBtnsHolder {
+  display: none;
+}
+
+//! Index
+
+//* Top
+#iTopHolder {
+  position: relative;
+
+  // #dummy {
+  //   height: 70vh;
+  //   background: rgb(41, 40, 40);
+  // }
+
+  #indexTopSlick {
+    position: relative;
+
+    .slick-prev {
+      left: 3% !important;
+      z-index: 1;
+    }
+    .slick-next {
+      right: 3% !important;
+      z-index: 1;
+    }
+
+    .slick-dots {
+      bottom: 20px;
+      z-index: 700;
+
+      .slick-active {
+        button {
+          border-color: #af2525 !important;
+        }
+      }
+
+      li {
+        margin: 10px !important;
+        button {
+          border: 4px solid rgb(31, 7, 7) !important;
+          width: 30px;
+          height: 30px;
+          display: grid;
+          place-items: center;
+          border-radius: 100%;
+          &::before {
+            font-size: 12px;
+            position: relative;
+            top: 1.4px !important;
+            left: 0px;
+            color: white;
+          }
+        }
+      }
+    }
+
+    .index-top-slide {
+      height: 90vh;
+      position: relative;
+
+      .index-top-slide-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+
+        video {
+          min-height: 100%;
+          min-width: 100%;
+        }
+
+        #videoSlide2 {
+          top: 10%;
+          left: 20%;
+          transform: translate(-20%, -10%);
+        }
+      }
+
+      .index-top-slide-cnt {
+        position: absolute;
+        width: 100%;
+        height: 90.5vh;
+        display: flex;
+        align-items: center;
+        background: rgba(0, 0, 0, 0.712);
+
+        .index-top-slide-cnt-inner {
+          max-width: 65%;
+          width: 100%;
+          margin: auto !important;
+
+          h2 {
+            font-family: $P;
+            font-size: clamp(4rem, 5vw, 5rem);
+            color: white;
+            font-weight: $Bold;
+            text-shadow: 0 4px 2px rgba(0, 0, 0, 0.328);
+          }
+
+          p {
+            font-family: $P;
+            font-size: 24px;
+            font-weight: $Reg;
+            padding-top: 20px !important;
+            padding-bottom: 40px !important;
+            color: white;
+          }
+
+          .index-top-slide-link-holder {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            a {
+              border: 2px solid #af2525 !important;
+              padding: 10px !important;
+              font-family: $P;
+              font-weight: $Med;
+              font-size: 20px;
+              color: white;
+
+              &:hover {
+                background: #af2525 !important;
+                color: white;
+              }
+            }
+
+            .link-dots {
+              display: grid;
+              margin-left: 10px !important;
+
+              span {
+                width: 12px;
+                height: 12px;
+                background: #af2525;
+                border-radius: 100%;
+                display: block;
+                position: relative;
+                animation: moveDot 1s infinite alternate linear;
+                -moz-animation: moveDot 1s infinite alternate linear;
+                -webkit-animation: moveDot 1s infinite alternate linear;
+
+                &:first-child {
+                  animation-delay: -0.3s;
+                }
+
+                &:nth-child(even) {
+                  animation-delay: -0.6s;
+                  margin-top: 5px !important;
+                  margin-bottom: 5px !important;
+                  background: white;
+                }
+
+                &:last-child {
+                  animation-delay: -0.9s;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//* Wines Under Top
+
+#indexWinesUTHolder {
+  position: relative;
+  max-width: 1750px;
+  margin: auto !important;
+  .index-wines-ut-background {
+    position: absolute;
+    top: -70px;
+    right: 40px;
+    width: 400px;
+    height: 800px;
+    background: rgba(230, 230, 230, 0.26);
+  }
+
+  #indexWinesUT {
+    padding: 40px !important;
+    margin-top: 150px !important;
+    margin-bottom: 150px !important;
+
+    .index-wines-ut-box {
+      max-width: 1650px;
+      margin: auto !important;
+      z-index: 100;
+      position: relative;
+      .index-wines-ut-row {
+        .index-wines-ut-side {
+          height: 600px;
+          display: flex;
+          align-items: center;
+
+          .index-wines-ut-side-bgs {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            max-width: 90%;
+            margin: auto !important;
+
+            .index-wines-ut-bg {
+              background-size: cover;
+              background-position: center;
+              background-repeat: no-repeat;
+              position: relative;
+              filter: drop-shadow(0 12px 4px rgba(0, 0, 0, 0.089));
+              &:first-child {
+                height: 600px;
+                width: 45%;
+                background-color: #af2525;
+              }
+
+              &:last-child {
+                height: 500px;
+                width: 45%;
+                z-index: 300;
+                background-color: rgb(83, 16, 16);
+                left: -10px;
+              }
+            }
+          }
+
+          .index-wines-ut-text {
+            display: flex;
+            justify-content: flex-end;
+            width: 100%;
+            div {
+              max-width: 75%;
+              margin: auto !important;
+              text-align: right;
+
+              h3 {
+                @include pageSectH3;
+              }
+
+              p {
+                @include pageSectP;
+              }
+
+              a {
+                @include pageSectLink;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//* About
+#indexAboutHolder {
+  position: relative;
+  max-width: 1750px;
+  margin: auto !important;
+  overflow-x: hidden;
+
+  .index-about-bg {
+    position: absolute;
+    height: 400px;
+  }
+
+  #indexAboutBG1 {
+    top: 150px;
+    left: 120px;
+    width: 300px;
+    background: rgba(121, 16, 16, 0.246);
+    filter: brightness(310%);
+    transform: rotate(130deg);
+  }
+
+  #indexAboutBG2 {
+    top: 540px;
+    right: 140px;
+    width: 250px;
+    background: rgba(230, 230, 230, 0.26);
+    transform: rotate(40deg);
+  }
+
+  #indexAbout {
+    margin-top: 320px !important;
+    margin-bottom: 420px !important;
+    .index-about-box {
+      max-width: 1750px;
+      margin: auto !important;
+      z-index: 100;
+      position: relative;
+
+      .index-about-row {
+        .index-about-side {
+          height: 450px;
+          display: flex;
+          align-items: center;
+
+          .index-about-text {
+            max-width: 75%;
+            margin: auto !important;
+            text-align: left;
+
+            h3 {
+              @include pageSectH3;
+            }
+
+            p {
+              @include pageSectP;
+              max-width: 610px !important;
+            }
+
+            div {
+              display: flex;
+              justify-content: space-between;
+              max-width: 300px;
+
+              a {
+                @include pageSectLink;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//* Wines Main
+#indexWinesMainHolder {
+  margin-bottom: 100px !important;
+}
+
+#indexWinesSlickHolder {
+  padding: 20px !important;
+  margin-bottom: 120px !important;
+
+  .slick-initialized {
+    overflow: hidden;
+  }
+  .slick-dots {
+    position: relative;
+    bottom: 50px;
+  }
+  .slick-slider {
+    max-width: 1450px;
+    margin: auto !important;
+    cursor: grab;
+
+    .slick-list {
+      height: 500px !important;
+    }
+
+    .slick-prev {
+      left: -4% !important;
+      z-index: 120;
+    }
+    .slick-next {
+      right: -4% !important;
+      z-index: 99;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: #af2525;
+      font-size: 30px;
+      opacity: 1;
+    }
+
+    .slick-slide {
+      height: 300px;
+      .index-wines-slick-slide {
+        background-color: ghostwhite;
+        max-width: 90%;
+        height: 400px;
+        margin: auto !important;
+        transition: 0.3s ease-in-out;
+        opacity: 0.3;
+        position: relative;
+        transform: scale(0.85);
+        border-radius: 10px;
+        .index-wines-slick-slide-inner {
+          position: relative;
+          display: block;
+          width: 100%;
+          height: 100%;
+
+          .fake-img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 200px;
+            border-radius: 10px;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 40%;
+          }
+
+          .red-fake {
+            background-color: #af2525;
+          }
+
+          .rose-fake {
+            background-color: #885151;
+          }
+
+          .sparkling-fake {
+            background-color: #a3349e;
+          }
+
+          .sparkling-fake:nth-child(1) {
+            background-position: 0% 10% !important;
+          }
+
+          .white-fake {
+            background-color: #e997db;
+          }
+
+          .index-wines-slick-slide-cnt {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 200px;
+            display: grid;
+            place-items: center;
+
+            .index-wines-slick-slide-cnt-inner {
+              width: 100%;
+              max-width: 90%;
+              div {
+                &:first-child {
+                  height: 120px;
+                }
+                &:last-child {
+                  height: 80px;
+                }
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                font-family: $P;
+
+                h3 {
+                  font-size: clamp(1rem, 2vw, 2rem);
+                  font-weight: $Bold;
+                  color: #af2525;
+                }
+
+                p {
+                  font-size: 16px;
+                  text-align: right;
+                }
+
+                a {
+                  background: transparent;
+                  border: 2px solid #af2525 !important;
+                  padding: 8px !important;
+                  color: #af2525;
+                  font-size: 14px;
+
+                  &:hover {
+                    background: #af2525;
+                    color: white;
+                  }
+                }
+
+                span {
+                  font-size: 18px;
+                  font-weight: $Bold;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .slick-center {
+      max-height: 400px !important;
+      height: 400px !important;
+
+      .index-wines-slick-slide {
+        height: 400px;
+        transition: 0.3s ease-in-out;
+        opacity: 1;
+        transform: scale(1);
+        cursor: pointer;
+        // box-shadow: 0 12px 2px rgba(29, 29, 29, 0.164);
+        filter: drop-shadow(0 12px 4px rgba(0, 0, 0, 0.089));
+      }
+    }
+  }
+}
+
+#indexWinesUnderSlick {
+  max-width: 1150px;
+  margin: auto !important;
+
+  .index-wines-under-slick-box {
+    .index-wines-under-slick-row {
+      .index-wines-under-slick-side {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+
+        .index-wines-under-slick-cnt {
+          max-width: 80%;
+          width: 100%;
+          margin: auto !important;
+
+          h3 {
+            font-family: $P;
+            font-size: clamp(2rem, 3.5vw, 3.5rem);
+            font-weight: $Bold;
+            color: #af2525;
+            text-shadow: 0 2px 2px rgba(0, 0, 0, 0.144);
+            text-transform: lowercase;
+          }
+
+          p {
+            font-family: $P;
+            font-weight: $Reg;
+            max-width: 610px;
+            margin-right: auto !important;
+            padding-top: 35px !important;
+            padding-bottom: 40px !important;
+          }
+
+          a {
+            border: 2px solid #af2525 !important;
+            padding: 8px !important;
+            font-family: $P;
+            font-weight: $Med;
+            font-size: 17px;
+            color: #af2525;
+
+            &:hover {
+              background: #af2525 !important;
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//* Contact
+
+#indexContactHolder {
+  max-width: 1400px;
+  margin: auto !important;
+  margin-top: 400px !important;
+  margin-bottom: 300px !important;
+  position: relative;
+
+  .index-contact-bgs {
+    div {
+      position: absolute;
+
+      &:first-child {
+        width: 400px;
+        height: 700px;
+        top: -120px;
+        right: -70px;
+        transform: rotate(30deg);
+        background: rgba(121, 16, 16, 0.246);
+      }
+
+      &:last-child {
+        width: 300px;
+        height: 550px;
+        top: 120px;
+        left: -70px;
+        transform: rotate(-30deg);
+        background: rgba(230, 230, 230, 0.26);
+      }
+    }
+  }
+
+  #indexContact {
+    .index-contact-box {
+      height: 500px;
+      width: 100%;
+      background-color: ghostwhite;
+      position: relative;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+      .index-contact-overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba(10, 10, 10, 0.733);
+        display: grid;
+        place-items: center;
+
+        div {
+          width: 100%;
+          text-align: center;
+
+          h3 {
+            font-size: clamp(2rem, 3.5vw, 3.5rem);
+            font-weight: $Bold;
+            color: #ffffff;
+            text-shadow: 0 2px 2px rgba(0, 0, 0, 0.144);
+            text-transform: lowercase;
+            margin-bottom: 40px !important;
+          }
+
+          a {
+            border: 2px solid #ffffff !important;
+            padding: 8px !important;
+            font-family: $P;
+            font-weight: $Med;
+            font-size: 17px;
+            color: #ffffff;
+
+            &:hover {
+              background: #ffffff !important;
+              color: #af2525;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//* Team
+#indexTeamHolder {
+  margin: auto !important;
+  margin-top: 450px !important;
+  margin-bottom: 100px !important;
+  max-width: 1750px;
+  width: 100%;
+  text-align: center;
+
+  .index-team-top {
+    max-width: 1200px;
+    margin: auto !important;
+    margin-bottom: 100px !important;
+
+    h3 {
+      @include pageSectH3;
+    }
+
+    p {
+      @include pageSectP;
+    }
+
+    a {
+      @include pageSectLink;
+    }
+  }
+
+  .index-team-box {
+    max-width: 90%;
+    margin: auto !important;
+    .index-team-row {
+      .index-team-side {
+        display: grid;
+        place-items: center;
+        padding: 20px !important;
+
+        .index-team-side-inner {
+          max-width: 80%;
+          margin: auto !important;
+          display: grid;
+
+          .i-team-fake-img {
+            height: 240px;
+            width: 280px;
+            margin: auto !important;
+            margin-bottom: 30px !important;
+            background-color: ghostwhite;
+            border-radius: 50%;
+          }
+
+          .i-team-img {
+            width: 100%;
+            max-width: 250px;
+            height: 240px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: auto !important;
+            margin-bottom: 50px !important;
+            border-radius: 50%;
+            filter: drop-shadow(0 12px 4px rgba(0, 0, 0, 0.007));
+          }
+
+          .i-team-text {
+            display: grid;
+            text-align: center;
+
+            h4 {
+              font-family: $P;
+              font-size: clamp(2rem, 2.7vw, 2.7rem);
+              font-weight: $Bold;
+              color: #af2525;
+              text-transform: capitalize;
+              padding-bottom: 0px !important;
+            }
+
+            q {
+              @include pageSectP;
+              font-style: italic;
+            }
+
+            a {
+              @include pageSectLink;
+              max-width: 120px;
+              margin: auto !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//! Wines
+//* Top
+#wTopHolder {
+  position: relative;
+
+  .wines-top-box {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: ghostwhite;
+    height: 800px;
+    width: 100%;
+    position: relative;
+
+    .wines-top-overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.76);
+      display: grid;
+      place-items: center;
+
+      .wines-top-cnt {
+        position: relative;
+        text-align: center;
+        color: white;
+        font-family: $P;
+
+        div {
+          h2 {
+            font-size: clamp(4rem, 4vw, 4rem);
+            font-weight: $Bold;
+          }
+
+          p {
+            font-size: 18px;
+            max-width: 500px;
+            padding-top: 30px !important;
+            padding-bottom: 50px !important;
+            margin: auto !important;
+          }
+
+          a {
+            border: 2px solid #af2525 !important;
+            padding: 10px !important;
+            font-family: $P;
+            font-weight: $Med;
+            font-size: 20px;
+            color: white;
+
+            &:hover {
+              background: #af2525 !important;
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//* Categories Buttons
+#winesCategoriesHolder {
+  max-width: 80%;
+  margin: auto !important;
+  margin-top: 200px !important;
+  margin-bottom: 200px !important;
+
+  .wines-categories-box {
+    max-width: 60%;
+    margin: auto !important;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: $P;
+
+    a {
+      background: transparent;
+      color: #af2525;
+      padding: 10px !important;
+      display: block;
+      font-weight: $Bold;
+      margin-bottom: 20px !important;
+      border: 2px solid #af2525 !important;
+
+      &:hover {
+        background: #af2525;
+        color: white;
+      }
+    }
+  }
+}
+
+//* Wines Items
+#winesItems {
+  margin: auto !important;
+  margin-top: 100px !important;
+  margin-bottom: 100px !important;
+  max-width: 1500px;
+
+  .wines-items-box {
+    .wines-items-row {
+      .wines-item {
+        height: 340px;
+        display: grid;
+        margin-bottom: 50px !important;
+
+        .wines-item-inner {
+          background: ghostwhite;
+          overflow: hidden;
+          white-space: nowrap;
+          display: grid;
+          max-width: 95% !important;
+          margin: auto !important;
+          margin-top: 0 !important;
+          width: 100%;
+          height: 100%;
+
+          .wines-item-img {
+            height: 170px;
+            width: 100%;
+            background-color: #af2525;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+          }
+
+          .wines-item-text {
+            display: grid;
+            place-items: center;
+            height: 160px;
+
+            .wines-item-text-set {
+              font-family: $P;
+              width: 100%;
+              max-width: 80%;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              flex-wrap: wrap;
+
+              h2 {
+                font-size: clamp(17px, 23px, 23px);
+                position: relative;
+                font-weight: $Bold;
+                color: rgb(78, 78, 78);
+              }
+
+              span {
+                font-size: 14px;
+              }
+
+              p {
+                font-size: 18px;
+                font-weight: $Med;
+              }
+
+              button {
+                width: 100%;
+                max-width: 130px;
+                height: 100%;
+                display: block;
+                background: #af2525;
+                color: white;
+                font-weight: $Bold;
+                font-size: 17px;
+                padding: 10px !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//! Team
+//* Top
+#teamTopHolder {
+  position: relative;
+
+  .team-top-box {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .team-top-row {
+      top: 0;
+      left: 0;
+      z-index: 100;
+      background: rgba(0, 0, 0, 0.712);
+
+      .team-top-side {
+        width: 100%;
+        height: 800px;
+        display: grid;
+        place-items: center;
+        position: relative;
+        color: white;
+        text-align: center;
+        font-family: $P;
+
+        .team-top-side-cnt {
+          h2 {
+            font-size: clamp(4rem, 4vw, 4rem);
+            font-weight: $Bold;
+          }
+          p {
+            font-size: 18px;
+            max-width: 500px;
+            padding-top: 30px !important;
+            padding-bottom: 50px !important;
+            margin: auto !important;
+          }
+          a {
+            border: 2px solid #af2525 !important;
+            padding: 10px !important;
+            font-family: $P;
+            font-weight: $Med;
+            font-size: 20px;
+            color: white;
+
+            &:hover {
+              background: #af2525 !important;
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//* Team Mates
+#teamMateOneHolder {
+  margin-top: 250px !important;
+}
+
+#teamMateTwoHolder {
+  margin-top: 400px !important;
+  margin-bottom: 400px !important;
+  .team-mate-side-cnt {
+    margin-right: 0 !important;
+    margin-left: auto !important;
+  }
+}
+
+#teamMateThreeHolder {
+  margin-bottom: 200px !important;
+}
+
+.team-mate-holder {
+  overflow: hidden;
+  margin-top: 470px !important;
+
+  .team-mate-box {
+    max-width: 1750px;
+    margin: auto !important;
+    .team-mate-row {
+      .team-mate-side {
+        height: 700px;
+        display: grid;
+        place-items: center;
+
+        .team-mate-side-cnt {
+          max-width: 70%;
+          margin: auto !important;
+          font-family: $P;
+
+          &:first-child {
+            margin-left: 0 !important;
+          }
+
+          h4 {
+            color: #af2525;
+            font-size: 20px;
+            font-weight: $Bold;
+          }
+
+          h2 {
+            font-weight: $Black;
+            font-size: clamp(3rem, 4vw, 4rem);
+          }
+
+          p {
+            max-width: 700px;
+            padding-top: 30px !important;
+          }
+        }
+
+        .team-mate-side-bgs-holder {
+          height: 100%;
+          width: 100%;
+          display: grid;
+          place-items: center;
+          position: relative;
+
+          .team-mate-side-colored-bg {
+            position: absolute;
+            opacity: 0.4;
+            width: 100%;
+          }
+
+          #teamMateCBOne {
+            max-width: 300px;
+            height: 300px;
+            background: #d43e3e86;
+            top: 50px;
+            left: -40px;
+            transform: rotate(20deg);
+          }
+
+          #teamMateCBTwo {
+            max-width: 400px;
+            height: 250px;
+            background: #6d696986;
+            bottom: 100px;
+            right: -40px;
+            transform: rotate(-40deg);
+          }
+
+          .team-mate-side-bg {
+            height: 600px;
+            width: 100% !important;
+            max-width: 70%;
+            margin: auto !important;
+            background-color: #af2525;
+            position: relative;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+          }
+        }
+      }
+    }
+  }
+}
+
+//! About
+
+//* Top
+#aboutTopHolder {
+  position: relative;
+
+  .about-top-box {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .about-top-row {
+      top: 0;
+      left: 0;
+      z-index: 100;
+      background: rgba(0, 0, 0, 0.712);
+
+      .about-top-side {
+        width: 100%;
+        height: 800px;
+        display: grid;
+        place-items: center;
+        position: relative;
+        color: white;
+        text-align: center;
+        font-family: $P;
+
+        .about-top-side-cnt {
+          h2 {
+            font-size: clamp(4rem, 4vw, 4rem);
+            font-weight: $Bold;
+          }
+          p {
+            font-size: 18px;
+            max-width: 500px;
+            padding-top: 30px !important;
+            padding-bottom: 50px !important;
+            margin: auto !important;
+          }
+          a {
+            border: 2px solid #af2525 !important;
+            padding: 10px !important;
+            font-family: $P;
+            font-weight: $Med;
+            font-size: 20px;
+            color: white;
+
+            &:hover {
+              background: #af2525 !important;
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//* Sects
+
+#aboutSectOne {
+  margin-top: 100px !important;
+}
+
+#aboutSectThree {
+  margin-bottom: 0 !important;
+}
+
+.about-sect {
+  max-width: 1550px;
+  margin: auto !important;
+  margin-top: 300px !important;
+  margin-bottom: 100px !important;
+  overflow: hidden;
+
+  .about-sect-box {
+    .about-sect-row {
+      .about-sect-side {
+        display: grid;
+        place-items: center;
+        height: 700px;
+
+        #aboutSectTwoBgs {
+          left: -40px;
+        }
+
+        .about-sect-bgs {
+          position: relative;
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          width: 100%;
+
+          .about-sect-bg {
+            width: 100%;
+            max-width: 45%;
+            display: block;
+            background: #af2525;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+          }
+
+          .lg-bg {
+            height: 500px;
+          }
+
+          .sm-bg {
+            height: 350px;
+          }
+        }
+
+        .about-sect-side-cnt {
+          .about-sect-side-txt {
+            font-family: $P;
+            max-width: 800px;
+
+            h2 {
+              font-weight: $Black;
+              font-size: clamp(3rem, 4vw, 4rem);
+            }
+
+            p {
+              max-width: 700px;
+              padding-top: 30px !important;
+            }
+
+            a {
+              margin-top: 40px !important;
+              display: block;
+              max-width: 140px;
+              border: 2px solid #af2525 !important;
+              padding: 10px !important;
+              font-family: $P;
+              font-weight: $Med;
+              font-size: 20px;
+              color: #af2525;
+              text-align: center;
+
+              &:hover {
+                background: #af2525 !important;
+                color: white;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//! Contact
+
+//* Top
+#contactTopHolder {
+  position: relative;
+
+  .contact-top-box {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .contact-top-row {
+      top: 0;
+      left: 0;
+      z-index: 100;
+      background: rgba(0, 0, 0, 0.712);
+
+      .contact-top-side {
+        width: 100%;
+        height: 800px;
+        display: grid;
+        place-items: center;
+        position: relative;
+        color: white;
+        text-align: center;
+        font-family: $P;
+
+        .contact-top-side-cnt {
+          h2 {
+            font-size: clamp(4rem, 4vw, 4rem);
+            font-weight: $Bold;
+          }
+          p {
+            font-size: 18px;
+            max-width: 500px;
+            padding-top: 30px !important;
+            padding-bottom: 50px !important;
+            margin: auto !important;
+          }
+          div {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            a {
+              border: 2px solid #af2525 !important;
+              padding: 10px !important;
+              font-family: $P;
+              font-weight: $Med;
+              font-size: 20px;
+              color: white;
+
+              &:hover {
+                background: #af2525 !important;
+                color: white;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//* Main
+
+#contactMainHolder {
+  max-width: 1550px;
+  margin: auto !important;
+  margin-top: 200px !important;
+  margin-bottom: 26px !important;
+  font-family: $P;
+
+  .contact-main-box {
+    .contact-main-row {
+      .contact-main-side {
+        height: 850px;
+        display: grid;
+        place-items: center;
+
+        &:last-child {
+          align-items: flex-end;
+        }
+
+        .contact-main-side-cnt {
+          margin: auto;
+          max-width: 80%;
+          height: 100%;
+          display: grid;
+          place-items: center;
+
+          #contactOtherSideCnt {
+            .contact-other-side-set {
+              display: grid;
+
+              .fa-icon {
+                margin-right: 10px !important;
+                color: rgb(31, 7, 7);
+              }
+
+              &:first-child {
+                margin-bottom: 30px !important;
+                .contact-other-side-group {
+                  display: grid;
+
+                  a {
+                    color: #af2525;
+                    font-size: 17px;
+                    font-weight: $Bold;
+                    &:hover {
+                      color: #520b0b;
+                    }
+                  }
+                }
+              }
+
+              &:last-child {
+                .contact-other-side-group {
+                  height: 180px;
+                  .contact-other-side-group-inner {
+                    display: grid;
+
+                    a {
+                      color: #af2525;
+                      font-size: 17px;
+                      display: flex;
+                      align-items: center;
+                      justify-content: flex-start;
+                      padding: 10px !important;
+                      padding-left: 0 !important;
+                      padding-right: 0 !important;
+                      width: 100%;
+                      max-width: 160px;
+                      font-weight: $Bold;
+                      &:hover {
+                        color: #520b0b;
+                      }
+                    }
+                  }
+                }
+              }
+
+              .contact-other-side-group {
+                display: grid;
+                align-items: center;
+                text-align: left;
+                height: 70px;
+              }
+            }
+          }
+
+          #contactFormSideCnt {
+            display: block;
+
+            .contact-form-side-top {
+              display: block;
+
+              h2 {
+                font-weight: $Black;
+                font-size: clamp(3rem, 4vw, 4rem);
+              }
+
+              p {
+                max-width: 700px;
+                padding-top: 30px !important;
+                padding-bottom: 50px !important;
+              }
+            }
+
+            form {
+              display: block;
+              background-color: white;
+              border: 2px solid #af2525;
+              padding: 20px !important;
+              height: 500px;
+
+              .contact-form-set {
+                height: 100px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+
+                .contact-form-group {
+                  width: 45%;
+                  border-left: 5px solid #af2525;
+                  input {
+                    height: 50px;
+                    width: 100%;
+                    background-color: ghostwhite;
+                    display: block;
+                    font-weight: $Bold;
+                    padding: 10px !important;
+                  }
+                }
+              }
+
+              .cf-bottom-set {
+                height: 255px;
+                max-width: 95%;
+                margin: auto !important;
+
+                .contact-form-group {
+                  border: none;
+                  display: flex;
+                  justify-content: space-evenly;
+
+                  &:first-child {
+                    width: 65%;
+                  }
+
+                  &:last-child {
+                    width: 35%;
+                  }
+                  textarea {
+                    height: 160px;
+                    width: 100%;
+                    resize: none;
+                    background-color: ghostwhite;
+                    display: block;
+                    font-weight: $Bold;
+                    padding: 10px !important;
+                    border: none;
+
+                    &:focus {
+                      outline: none;
+                    }
+                  }
+                }
+                .cf-btns {
+                  display: grid;
+                  place-items: center;
+                  justify-content: flex-end;
+                  height: 60%;
+
+                  button {
+                    width: 140px;
+                    border: 2px solid #af2525 !important;
+                    background-color: white;
+                    padding: 6px !important;
+                    font-family: $P;
+                    font-weight: $Med;
+                    font-size: 20px;
+                    color: #af2525;
+
+                    &:hover {
+                      background: #af2525 !important;
+                      color: white;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.disable-btn {
+  opacity: 0.8 !important;
+  background: #af2525 !important;
+  color: white !important;
+  pointer-events: none;
+}
+
+//! Keyframes
+
+@keyframes moveDot {
+  0% {
+    left: 0px;
+  }
+  50% {
+    left: 10px;
+  }
+  100% {
+    left: 0px;
+  }
+}

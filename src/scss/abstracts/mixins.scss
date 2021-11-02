@@ -1,0 +1,52 @@
+@mixin overlayBtnsSU() {
+  position: fixed;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background: #851818;
+  display: grid;
+  place-items: center;
+  font-size: 24px;
+  display: grid;
+  place-items: center;
+  color: white;
+  border-radius: 100%;
+  box-shadow: 0 5px 2px rgba(95, 95, 95, 0.233);
+  z-index: 400;
+
+  &:hover {
+    background: #571212;
+  }
+}
+
+@mixin pageSectH3 {
+  font-family: $P;
+  font-size: clamp(2rem, 3.5vw, 3.5rem);
+  font-weight: $Bold;
+  color: #af2525;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.144);
+  text-transform: lowercase;
+}
+
+@mixin pageSectP {
+  font-family: $P;
+  font-weight: $Reg;
+  max-width: 710px;
+  margin: auto !important;
+  padding-top: 35px !important;
+  padding-bottom: 40px !important;
+}
+
+@mixin pageSectLink {
+  border: 2px solid #af2525 !important;
+  padding: 8px !important;
+  font-family: $P;
+  font-weight: $Med;
+  font-size: 17px;
+  color: #af2525;
+
+  &:hover {
+    background: #af2525 !important;
+    color: white;
+  }
+}

@@ -1,0 +1,367 @@
+@media all and (max-width: 1995px) {
+  .about-sect {
+    max-width: 90%;
+  }
+  .about-sect
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side
+    .about-sect-side-cnt
+    .about-sect-side-txt {
+    max-width: 75% !important;
+    margin: auto !important;
+  }
+  .about-sect
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side
+    .about-sect-side-cnt
+    .about-sect-side-txt
+    h2 {
+    font-size: 40px;
+  }
+  .about-sect
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side
+    .about-sect-side-cnt
+    .about-sect-side-txt
+    p {
+    max-width: 95%;
+  }
+}
+
+@media all and (max-width: 991px) {
+  #aboutTopHolder
+    .about-top-box
+    .about-top-row
+    .about-top-side
+    .about-top-side-cnt
+    h2 {
+    font-size: 45px;
+  }
+}
+
+@media (min-width: 992px) {
+}
+
+@media all and (max-width: 768px) {
+  #aboutTopHolder .about-top-box,
+  #aboutTopHolder .about-top-box .about-top-row .about-top-side {
+    height: 600px;
+  }
+  #aboutTopHolder
+    .about-top-box
+    .about-top-row
+    .about-top-side
+    .about-top-side-cnt {
+    padding-top: 40px !important;
+  }
+  #aboutTopHolder
+    .about-top-box
+    .about-top-row
+    .about-top-side
+    .about-top-side-cnt
+    h2 {
+    font-size: 30px;
+    max-width: 70%;
+    text-align: center;
+    margin: auto !important;
+  }
+  #aboutTopHolder
+    .about-top-box
+    .about-top-row
+    .about-top-side
+    .about-top-side-cnt
+    p {
+    font-size: 14px;
+    max-width: 280px;
+  }
+  #aboutTopHolder
+    .about-top-box
+    .about-top-row
+    .about-top-side
+    .about-top-side-cnt
+    a {
+    padding: 10px !important;
+    font-size: 15px;
+  }
+  #aboutSectOne {
+    margin-top: 20px !important;
+    margin-bottom: 50px !important;
+  }
+  #aboutSectThree {
+    margin-top: 20px !important;
+    margin-bottom: 60px !important;
+  }
+  .about-sect {
+    max-width: 100%;
+    margin-top: 0px !important;
+    margin-bottom: 80px !important;
+  }
+  .about-sect .about-sect-box .about-sect-row .about-sect-side {
+    height: 560px;
+  }
+  .about-sect
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side
+    .about-sect-side-cnt
+    .about-sect-side-txt {
+    max-width: 80% !important;
+    margin: auto !important;
+    text-align: center;
+  }
+  .about-sect
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side
+    #aboutSectTwoBgs {
+    left: 0;
+  }
+  .about-sect
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side
+    .about-sect-side-cnt
+    .about-sect-side-txt
+    p {
+    max-width: 95% !important;
+    font-size: 13.5px;
+    margin: auto !important;
+  }
+  .about-sect
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side
+    .about-sect-side-cnt
+    .about-sect-side-txt
+    a {
+    margin: auto !important;
+    margin-top: 30px !important;
+    font-size: 15px;
+    max-width: 120px;
+  }
+  .about-sect
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side
+    .about-sect-bgs
+    .lg-bg {
+    height: 350px !important;
+  }
+  .about-sect
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side
+    .about-sect-bgs
+    .sm-bg {
+    height: 300px !important;
+  }
+  .about-sect .about-sect-box .about-sect-row .about-sect-side {
+    height: 480px;
+  }
+  #aboutSectOne {
+    margin-top: 50px !important;
+  }
+  #aboutSectTwo {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+  }
+}
+
+/*! Pixel 2 XL */
+@media only screen and (min-device-width: 411px) and (max-device-width: 823px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  #aboutTopHolder .about-top-box,
+  #aboutTopHolder .about-top-box .about-top-row .about-top-side {
+    height: 380px;
+  }
+  #aboutTopHolder
+    .about-top-box
+    .about-top-row
+    .about-top-side
+    .about-top-side-cnt {
+    padding-top: 27px !important;
+  }
+  #aboutTopHolder
+    .about-top-box
+    .about-top-row
+    .about-top-side
+    .about-top-side-cnt
+    h2 {
+    max-width: 100%;
+  }
+  #aboutTopHolder
+    .about-top-box
+    .about-top-row
+    .about-top-side
+    .about-top-side-cnt
+    p {
+    padding-top: 10px !important;
+    padding-bottom: 30px !important;
+    max-width: 380px !important;
+  }
+  .about-sect {
+    max-width: 95%;
+  }
+  #aboutSectOne {
+    margin-top: 100px !important;
+  }
+  #aboutSectTwo {
+    margin-bottom: 50px !important;
+  }
+  .about-sect .about-sect-box .about-sect-row .about-sect-side {
+    height: 450px;
+  }
+  .about-sect .about-sect-box .about-sect-row .about-sect-side:first-child {
+    max-width: 70%;
+  }
+  .about-sect .about-sect-box .about-sect-row .about-sect-side:last-child {
+    max-width: 30%;
+  }
+  .about-sect
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side
+    .about-sect-bgs
+    .lg-bg {
+    height: 350px !important;
+  }
+  .about-sect
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side
+    .about-sect-bgs
+    .sm-bg {
+    height: 300px !important;
+  }
+  .about-sect
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side
+    .about-sect-side-cnt
+    .about-sect-side-txt
+    p {
+    font-size: 13.5px !important;
+    max-width: 100% !important;
+  }
+}
+
+/*! Ipad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  #aboutTopHolder .about-top-box,
+  #aboutTopHolder .about-top-box .about-top-row .about-top-side {
+    height: 420px;
+  }
+  #aboutTopHolder
+    .about-top-box
+    .about-top-row
+    .about-top-side
+    .about-top-side-cnt {
+    padding-top: 70px !important;
+  }
+  #aboutTopHolder
+    .about-top-box
+    .about-top-row
+    .about-top-side
+    .about-top-side-cnt
+    h2 {
+    max-width: 100%;
+    font-size: 35px;
+  }
+  #aboutTopHolder
+    .about-top-box
+    .about-top-row
+    .about-top-side
+    .about-top-side-cnt
+    p {
+    padding-top: 10px !important;
+    padding-bottom: 30px !important;
+    max-width: 380px !important;
+    font-size: 14px;
+  }
+  #aboutTopHolder
+    .about-top-box
+    .about-top-row
+    .about-top-side
+    .about-top-side-cnt
+    a {
+    padding: 10px !important;
+    font-size: 15px;
+  }
+  #aboutSectOne {
+    margin-bottom: 0px !important;
+  }
+  #aboutSectTwo {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+  }
+  #aboutSectThree {
+    margin-top: 0px !important;
+  }
+}
+
+/*! iPad Pro */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  #aboutTopHolder .about-top-box,
+  #aboutTopHolder .about-top-box .about-top-row .about-top-side {
+    height: 520px !important;
+  }
+  #aboutTopHolder
+    .about-top-box
+    .about-top-row
+    .about-top-side
+    .about-top-side-cnt {
+    padding-top: 50px !important;
+  }
+  #aboutTopHolder
+    .about-top-box
+    .about-top-row
+    .about-top-side
+    .about-top-side-cnt
+    h2 {
+    font-size: 55px !important;
+  }
+  #aboutTopHolder
+    .about-top-box
+    .about-top-row
+    .about-top-side
+    .about-top-side-cnt
+    p {
+    padding-top: 10px !important;
+    padding-bottom: 30px !important;
+    max-width: 480px !important;
+    font-size: 18px;
+  }
+  #aboutTopHolder
+    .about-top-box
+    .about-top-row
+    .about-top-side
+    .about-top-side-cnt
+    a {
+    padding: 10px !important;
+    font-size: 19px;
+  }
+  #aboutSectOne {
+    margin-top: 50px !important;
+    margin-bottom: 0px !important;
+  }
+  #aboutSectTwo {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+  }
+  #aboutSectThree {
+    margin-top: 0px !important;
+    margin-bottom: 30px !important;
+  }
+}
+
+/*! Laptops */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+}

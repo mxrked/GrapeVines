@@ -1,0 +1,256 @@
+@media all and (max-width: 1995px) {
+  #winesCategoriesHolder .wines-categories-box {
+    max-width: 800px;
+  }
+  #winesItems {
+    max-width: 95%;
+  }
+  #winesItems
+    .wines-items-box
+    .wines-items-row
+    .wines-item
+    .wines-item-inner
+    .wines-item-text
+    .wines-item-text-set:first-child {
+    display: grid !important;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media all and (max-width: 991px) {
+  #wTopHolder .wines-top-box .wines-top-overlay .wines-top-cnt div h2 {
+    font-size: 45px;
+  }
+  #wTopHolder .wines-top-box .wines-top-overlay .wines-top-cnt div p {
+    font-size: 17px !important;
+    max-width: 450px;
+  }
+  #wTopHolder .wines-top-box .wines-top-overlay .wines-top-cnt div a {
+    padding: 10px !important;
+    font-size: 19px !important;
+  }
+  #winesCategoriesHolder {
+    margin-top: 120px !important;
+    margin-bottom: 120px !important;
+  }
+  #winesCategoriesHolder .wines-categories-box {
+    max-width: 400px !important;
+    width: 100%;
+  }
+  #winesItems {
+    max-width: 90%;
+  }
+  #winesItems
+    .wines-items-box
+    .wines-items-row
+    .wines-item
+    .wines-item-inner
+    .wines-item-text
+    .wines-item-text-set:first-child {
+    display: grid;
+    text-align: center;
+  }
+  #winesItems
+    .wines-items-box
+    .wines-items-row
+    .wines-item
+    .wines-item-inner
+    .wines-item-text
+    .wines-item-text-set:first-child
+    h2 {
+    font-size: 27px;
+    top: 10px;
+  }
+  #winesItems
+    .wines-items-box
+    .wines-items-row
+    .wines-item
+    .wines-item-inner
+    .wines-item-text
+    .wines-item-text-set:last-child
+    button {
+    max-width: 120px;
+    font-size: 15px;
+  }
+  #winesItems
+    .wines-items-box
+    .wines-items-row
+    .wines-item
+    .wines-item-inner
+    .wines-item-text
+    .wines-item-text-set:first-child {
+    display: grid;
+    justify-content: center;
+  }
+  #winesItems
+    .wines-items-box
+    .wines-items-row
+    .wines-item
+    .wines-item-inner
+    .wines-item-text
+    .wines-item-text-set
+    span {
+    padding-top: 20px !important;
+  }
+}
+
+@media (min-width: 992px) {
+}
+
+@media all and (max-width: 768px) {
+  #wTopHolder .wines-top-box {
+    height: 600px;
+  }
+  #wTopHolder .wines-top-box .wines-top-overlay .wines-top-cnt div {
+    padding-top: 50px !important;
+  }
+  #wTopHolder .wines-top-box .wines-top-overlay .wines-top-cnt div h2 {
+    font-size: 30px;
+  }
+  #wTopHolder .wines-top-box .wines-top-overlay .wines-top-cnt div p {
+    font-size: 14px !important;
+    max-width: 280px;
+  }
+  #wTopHolder .wines-top-box .wines-top-overlay .wines-top-cnt div a {
+    padding: 10px !important;
+    font-size: 15px !important;
+  }
+  #winesCategoriesHolder {
+    margin-top: 70px !important;
+    margin-bottom: 0px !important;
+  }
+  #winesCategoriesHolder .wines-categories-box {
+    max-width: 350px !important;
+  }
+  #winesCategoriesHolder .wines-categories-box a {
+    font-size: 13px;
+  }
+  #winesItems {
+    max-width: 100%;
+    margin-top: 50px !important;
+    margin-bottom: 0px !important;
+  }
+  #winesItems .wines-items-box .wines-items-row .wines-item .wines-item-inner {
+    max-width: 80% !important;
+  }
+  #winesItems
+    .wines-items-box
+    .wines-items-row
+    .wines-item
+    .wines-item-inner
+    .wines-item-img {
+    height: 130px;
+  }
+  #winesItems
+    .wines-items-box
+    .wines-items-row
+    .wines-item
+    .wines-item-inner
+    .wines-item-text
+    .wines-item-text-set
+    h2 {
+    font-size: 21px !important;
+  }
+  #winesItems
+    .wines-items-box
+    .wines-items-row
+    .wines-item
+    .wines-item-inner
+    .wines-item-text
+    .wines-item-text-set
+    button {
+    font-size: 14px !important;
+  }
+  #winesItems
+    .wines-items-box
+    .wines-items-row
+    .wines-item
+    .wines-item-inner
+    .wines-item-text
+    .wines-item-text-set
+    p {
+    font-size: 15px;
+  }
+}
+
+/*! Pixel 2 XL */
+@media only screen and (min-device-width: 411px) and (max-device-width: 823px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  #wTopHolder .wines-top-box {
+    height: 370px;
+  }
+  #wTopHolder .wines-top-box .wines-top-overlay .wines-top-cnt div {
+    padding-top: 20px !important;
+  }
+  #wTopHolder .wines-top-box .wines-top-overlay .wines-top-cnt div h2 {
+    font-size: 25px;
+  }
+  #wTopHolder .wines-top-box .wines-top-overlay .wines-top-cnt div p {
+    font-size: 14px !important;
+    max-width: 380px;
+    padding-top: 20px !important;
+    padding-bottom: 30px !important;
+  }
+  #wTopHolder .wines-top-box .wines-top-overlay .wines-top-cnt div a {
+    padding: 10px !important;
+    font-size: 15px !important;
+  }
+  #winesItems .wines-items-box .wines-items-row .wines-item .wines-item-inner {
+    max-width: 70% !important;
+  }
+  #winesItems
+    .wines-items-box
+    .wines-items-row
+    .wines-item
+    .wines-item-inner
+    .wines-item-text
+    .wines-item-text-set {
+    max-width: 300px;
+  }
+}
+
+/*! Ipad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  #wTopHolder .wines-top-box {
+    height: 420px;
+  }
+  #wTopHolder .wines-top-box .wines-top-overlay .wines-top-cnt div {
+    padding-top: 80px !important;
+  }
+  #wTopHolder .wines-top-box .wines-top-overlay .wines-top-cnt div h2 {
+    font-size: 35px;
+  }
+}
+
+/*! iPad Pro */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  #wTopHolder .wines-top-box {
+    height: 520px;
+  }
+  #wTopHolder .wines-top-box .wines-top-overlay .wines-top-cnt div {
+    padding-top: 50px !important;
+  }
+  #wTopHolder .wines-top-box .wines-top-overlay .wines-top-cnt div h2 {
+    font-size: 55px;
+  }
+  #wTopHolder .wines-top-box .wines-top-overlay .wines-top-cnt div p {
+    padding-top: 10px !important;
+    padding-bottom: 30px !important;
+    max-width: 480px !important;
+    font-size: 18px;
+  }
+  #wTopHolder .wines-top-box .wines-top-overlay .wines-top-cnt div a {
+    padding: 10px !important;
+    font-size: 19px;
+  }
+}
+
+/*! Laptops */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+}

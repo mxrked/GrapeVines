@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap");
+.disable-btn {
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+#searchTogglerBtn {
+  position: fixed;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background: #851818;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  font-size: 24px;
+  display: grid;
+  place-items: center;
+  color: white;
+  border-radius: 100%;
+  -webkit-box-shadow: 0 5px 2px rgba(95, 95, 95, 0.233);
+          box-shadow: 0 5px 2px rgba(95, 95, 95, 0.233);
+  z-index: 400;
+}
+
+#searchTogglerBtn:hover {
+  background: #571212;
+}
+
+#b2TTogglerBtn {
+  position: fixed;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background: #851818;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  font-size: 24px;
+  display: grid;
+  place-items: center;
+  color: white;
+  border-radius: 100%;
+  -webkit-box-shadow: 0 5px 2px rgba(95, 95, 95, 0.233);
+          box-shadow: 0 5px 2px rgba(95, 95, 95, 0.233);
+  z-index: 400;
+}
+
+#b2TTogglerBtn:hover {
+  background: #571212;
+}
+
+#sCToggler {
+  position: fixed;
+  top: 60px;
+  right: 20px;
+  z-index: 890;
+  width: 40px;
+  height: 40px;
+  background: ghostwhite;
+  color: #851818;
+  font-size: 17px;
+  border-radius: 100%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  -webkit-box-shadow: 0 5px 2px rgba(95, 95, 95, 0.233);
+          box-shadow: 0 5px 2px rgba(95, 95, 95, 0.233);
+}
+/*# sourceMappingURL=buttons.css.map */

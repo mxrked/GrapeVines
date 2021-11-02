@@ -1,0 +1,194 @@
+@import "../abstracts/abstracts-dir.scss";
+
+//* Cart
+
+#sCDarken {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #440b0bd8;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  z-index: 900;
+}
+
+#sCMain {
+  position: fixed;
+  font-family: $P;
+  right: 0;
+  top: 0;
+  width: 0;
+  overflow: hidden;
+  overflow-y: auto;
+  white-space: nowrap;
+  height: 100%;
+  max-width: 1000px;
+  background: white;
+  z-index: 900;
+
+  #sCCnt {
+    display: grid;
+    padding: 20px !important;
+
+    .cart-top {
+      display: flex;
+      justify-content: space-evenly;
+
+      button {
+        background: #440b0bd8;
+        color: white !important;
+        padding: 10px !important;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        width: 160px;
+        justify-content: space-evenly;
+        font-weight: $Bold;
+      }
+    }
+
+    .cart-body {
+      max-width: 85%;
+      width: 100%;
+      margin: auto !important;
+      padding-top: 80px !important;
+
+      h1 {
+        font-weight: $Bold;
+        opacity: 0.9;
+        font-size: clamp(2rem, 3vw, 3rem);
+      }
+
+      #cartItemsHolder {
+        margin-top: 60px !important;
+        .cart-item {
+          padding: 30px !important;
+          box-shadow: (0 5px 4px rgba(219, 219, 219, 0.664));
+          list-style: none;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          .cart-item-img {
+            width: 200px !important;
+            height: 190px !important;
+            display: block !important;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            // background-color: red;
+          }
+
+          h4 {
+            font-family: $P;
+            font-weight: $Bold;
+            text-align: left;
+            display: block;
+          }
+
+          button {
+            font-family: $P;
+            font-weight: $Bold;
+            background-color: #af2525;
+            color: white;
+            width: 40px;
+            height: 40px;
+            display: grid;
+            place-items: center;
+            font-size: 24px;
+            border-radius: 50%;
+          }
+        }
+      }
+    }
+  }
+}
+
+//* Page Entry
+#pageEntryHolder {
+  position: relative;
+
+  #pageEntryDarken {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.911);
+    z-index: 1000;
+  }
+
+  #pageEntryCnt {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    z-index: 1000;
+    text-align: center;
+    overflow-y: auto;
+
+    .page-entry-cnt-inner {
+      display: block;
+      background: white;
+      width: 100%;
+      max-width: 800px;
+
+      .page-entry-bg {
+        height: 250px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: #af2525;
+      }
+
+      .page-entry-text {
+        padding: 30px !important;
+        font-family: $P;
+        height: 300px;
+        display: grid;
+        place-items: center;
+
+        .page-entry-text-inner {
+          display: block;
+
+          h2 {
+            font-size: 35px;
+            font-weight: $Bold;
+            color: #af2525;
+          }
+
+          p {
+            padding-top: 30px !important;
+            padding-bottom: 30px !important;
+            font-weight: $Reg;
+            font-size: 17px;
+          }
+
+          div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: auto !important;
+            max-width: 380px;
+
+            .page-entry-btn {
+              border: 2px solid #af2525 !important;
+              padding: 8px !important;
+              font-family: $P;
+              font-weight: $Med;
+              font-size: 17px;
+              color: #af2525;
+              background: transparent;
+
+              &:hover {
+                background: #af2525 !important;
+                color: white;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
